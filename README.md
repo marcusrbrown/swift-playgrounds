@@ -1,5 +1,7 @@
 # swiftplaygrounds
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/igetgames.svg?style=social&label=Follow)](https://twitter.com/igetgames)
+
 These are [Swift Playgrounds](https://developer.apple.com/swift/resources/) and [Playground Books](https://developer.apple.com/library/prerelease/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/) that I've created or modified. See each directory for more information.
 
 ## Installation
