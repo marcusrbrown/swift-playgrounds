@@ -1,4 +1,4 @@
-name: PublicExtension
+name: Public Extension
 identifier: com.igetgames.PublicExtension
 deployment_target: ios10.0
 chapters:

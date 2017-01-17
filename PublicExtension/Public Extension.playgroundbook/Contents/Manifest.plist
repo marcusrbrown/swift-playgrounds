@@ -13,7 +13,7 @@
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>Name</key>
-	<string>PublicExtension</string>
+	<string>Public Extension</string>
 	<key>Version</key>
 	<string>1.0</string>
 </dict>
