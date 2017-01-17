@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentVersion</key>
+	<string>1.0</string>
+	<key>Name</key>
+	<string>PublicExtension</string>
+	<key>Pages</key>
+	<array>
+		<string>Table of Contents.playgroundpage</string>
+		<string>UIEdgeInsets.playgroundpage</string>
+		<string>Array.playgroundpage</string>
+		<string>String.playgroundpage</string>
+		<string>UIColor.playgroundpage</string>
+		<string>Optional.playgroundpage</string>
+		<string>CountableRange.playgroundpage</string>
+		<string>UIDynamicAnimator.playgroundpage</string>
+		<string>UIView.playgroundpage</string>
+		<string>UITableView.playgroundpage</string>
+		<string>Int.playgroundpage</string>
+		<string>UIImage.playgroundpage</string>
+		<string>CGSize.playgroundpage</string>
+		<string>Timer.playgroundpage</string>
+		<string>Playground Related.playgroundpage</string>
+		<string>ErrorType.playgroundpage</string>
+		<string>OperationQueue.playgroundpage</string>
+		<string>UIScrollView.playgroundpage</string>
+		<string>UICollectionView.playgroundpage</string>
+		<string>Collection.playgroundpage</string>
+		<string>Dictionary.playgroundpage</string>
+		<string>Date.playgroundpage</string>
+		<string>UIWindow.playgroundpage</string>
+		<string>AbsoluteValuable.playgroundpage</string>
+		<string>Miscellaneous.playgroundpage</string>
+		<string>NSObject.playgroundpage</string>
+		<string>UserDefaults.playgroundpage</string>
+		<string>Result.playgroundpage</string>
+		<string>UIOffset.playgroundpage</string>
+		<string>DateFormatter.playgroundpage</string>
+		<string>UIGestureRecognizer.playgroundpage</string>
+		<string>Cache.playgroundpage</string>
+		<string>UIFont.playgroundpage</string>
+		<string>CGRect.playgroundpage</string>
+		<string>Bool.playgroundpage</string>
+		<string>CharacterSet.playgroundpage</string>
+		<string>Comparable.playgroundpage</string>
+		<string>UInt.playgroundpage</string>
+		<string>Sequence.playgroundpage</string>
+		<string>UISplitViewController.playgroundpage</string>
+		<string>BidirectionalCollection.playgroundpage</string>
+		<string>StringLiteralConvertible.playgroundpage</string>
+		<string>UIAlertController.playgroundpage</string>
+		<string>UnicodeScalar.playgroundpage</string>
+		<string>RandomAccessCollection.playgroundpage</string>
+		<string>FloatingPoint.playgroundpage</string>
+	</array>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
