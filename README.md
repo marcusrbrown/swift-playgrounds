@@ -1,6 +1,6 @@
 # swiftplaygrounds
 
-These are Swift Playgrounds and Playground Books that I've created or modified. See each directory for more information.
+These are [Swift Playgrounds](https://developer.apple.com/swift/resources/) and [Playground Books](https://developer.apple.com/library/prerelease/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/) that I've created or modified. See each directory for more information.
 
 ## Installation
 
