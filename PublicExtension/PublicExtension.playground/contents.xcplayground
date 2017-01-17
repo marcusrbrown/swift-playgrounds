@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Table of Contents'/>
+        <page name='UIEdgeInsets'/>
+        <page name='Array'/>
+        <page name='String'/>
+        <page name='UIColor'/>
+        <page name='Optional'/>
+        <page name='CountableRange'/>
+        <page name='UIDynamicAnimator'/>
+        <page name='UIView'/>
+        <page name='UITableView'/>
+        <page name='Int'/>
+        <page name='UIImage'/>
+        <page name='CGSize'/>
+        <page name='Timer'/>
+        <page name='Playground Related'/>
+        <page name='ErrorType'/>
+        <page name='OperationQueue'/>
+        <page name='UIScrollView'/>
+        <page name='UICollectionView'/>
+        <page name='Collection'/>
+        <page name='Dictionary'/>
+        <page name='Date'/>
+        <page name='UIWindow'/>
+        <page name='AbsoluteValuable'/>
+        <page name='Miscellaneous'/>
+        <page name='NSObject'/>
+        <page name='UserDefaults'/>
+        <page name='Result'/>
+        <page name='UIOffset'/>
+        <page name='DateFormatter'/>
+        <page name='UIGestureRecognizer'/>
+        <page name='Cache'/>
+        <page name='UIFont'/>
+        <page name='CGRect'/>
+        <page name='Bool'/>
+        <page name='CharacterSet'/>
+        <page name='Comparable'/>
+        <page name='UInt'/>
+        <page name='Sequence'/>
+        <page name='UISplitViewController'/>
+        <page name='BidirectionalCollection'/>
+        <page name='StringLiteralConvertible'/>
+        <page name='UIAlertController'/>
+        <page name='UnicodeScalar'/>
+        <page name='RandomAccessCollection'/>
+        <page name='FloatingPoint'/>
+    </pages>
+</playground>
