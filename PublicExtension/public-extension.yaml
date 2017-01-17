@@ -1,0 +1,5 @@
+name: PublicExtension
+identifier: com.igetgames.PublicExtension
+deployment_target: ios10.0
+chapters:
+ - name: PublicExtension
