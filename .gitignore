@@ -6,4 +6,11 @@ playground.xcworkspace
 ## Various settings
 xcuserdata/
 
+## Carthage
+#
+# Resolved Carthage dependencies
+Cartfile.resolved
+# Avoid checking in source code from Carthage dependencies.
+Carthage/
+
 .DS_Store

@@ -26,6 +26,7 @@
 		2D9AACD01E2F525000CC3860 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACC91E2F525000CC3860 /* icon.png */; };
 		2D9AACD11E2F525000CC3860 /* confused.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACCA1E2F525000CC3860 /* confused.png */; };
 		2D9AACD21E2F525000CC3860 /* annoyed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACCB1E2F525000CC3860 /* annoyed.png */; };
+		2D9AACD41E2F56D300CC3860 /* PlaygroundSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		2D9AACC91E2F525000CC3860 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Contents/Resources/icon.png; sourceTree = "<group>"; };
 		2D9AACCA1E2F525000CC3860 /* confused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confused.png; path = Contents/Resources/confused.png; sourceTree = "<group>"; };
 		2D9AACCB1E2F525000CC3860 /* annoyed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annoyed.png; path = Contents/Resources/annoyed.png; sourceTree = "<group>"; };
+		2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlaygroundSupport.framework; path = Carthage/Build/iOS/PlaygroundSupport.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9AACD41E2F56D300CC3860 /* PlaygroundSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 		2D9AAC881E2F4E6300CC3860 = {
 			isa = PBXGroup;
 			children = (
+				2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */,
 				2D9AAC931E2F4E6300CC3860 /* Talking */,
 				2D9AACA81E2F4E6300CC3860 /* TalkingTests */,
 				2D9AAC921E2F4E6300CC3860 /* Products */,
@@ -417,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T8NXPD788Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Talking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.igetgames.Talking;
@@ -430,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T8NXPD788Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Talking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.igetgames.Talking;
