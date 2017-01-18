@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = makeRootViewController()
+        window?.makeKeyAndVisible()
 		return true
 	}
 
@@ -44,3 +46,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+func makeRootViewController() -> UIViewController {
+    let split = UISplitViewController()
+    split.viewControllers = [UIViewController(), FaceViewController()]
+    split.minimumPrimaryColumnWidth = UIScreen.main.bounds.width / 2
+    split.maximumPrimaryColumnWidth = UIScreen.main.bounds.width / 2
+    return split
+}
