@@ -26,7 +26,7 @@
 		2D9AACD01E2F525000CC3860 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACC91E2F525000CC3860 /* icon.png */; };
 		2D9AACD11E2F525000CC3860 /* confused.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACCA1E2F525000CC3860 /* confused.png */; };
 		2D9AACD21E2F525000CC3860 /* annoyed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACCB1E2F525000CC3860 /* annoyed.png */; };
-		2D9AACD41E2F56D300CC3860 /* PlaygroundSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */; };
+		2D9AACD81E2F60F600CC3860 /* PlaygroundSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9AACD41E2F56D300CC3860 /* PlaygroundSupport.framework in Frameworks */,
+				2D9AACD81E2F60F600CC3860 /* PlaygroundSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
