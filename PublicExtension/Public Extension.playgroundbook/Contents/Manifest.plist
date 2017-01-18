@@ -5,6 +5,7 @@
 	<key>Chapters</key>
 	<array>
 		<string>PublicExtension.playgroundchapter</string>
+		<string>PublicExtensionExperiments.playgroundchapter</string>
 	</array>
 	<key>ContentIdentifier</key>
 	<string>com.igetgames.PublicExtension</string>
