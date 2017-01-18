@@ -173,6 +173,7 @@
 				2D9AAC8D1E2F4E6300CC3860 /* Sources */,
 				2D9AAC8E1E2F4E6300CC3860 /* Frameworks */,
 				2D9AAC8F1E2F4E6300CC3860 /* Resources */,
+				2D9AACD51E2F5D5C00CC3860 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -268,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9AACD51E2F5D5C00CC3860 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PlaygroundSupport.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D9AAC8D1E2F4E6300CC3860 /* Sources */ = {
