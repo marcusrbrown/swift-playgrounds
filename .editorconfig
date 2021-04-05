@@ -16,5 +16,5 @@ trim_trailing_whitespace = true
 [*.{md,txt,yml}]
 trim_trailing_whitespace = false
 
-[*.swift]
+[*.{swift,plist}]
 indent_size = 4
