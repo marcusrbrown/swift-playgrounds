@@ -24,6 +24,9 @@
 		2D9AACD11E2F525000CC3860 /* confused.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACCA1E2F525000CC3860 /* confused.png */; };
 		2D9AACD21E2F525000CC3860 /* annoyed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACCB1E2F525000CC3860 /* annoyed.png */; };
 		2D9AACD81E2F60F600CC3860 /* PlaygroundSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */; };
+		2D9AACDC1E2F6AB700CC3860 /* Manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACDB1E2F6AB700CC3860 /* Manifest.plist */; };
+		2D9AACE01E2F6C2600CC3860 /* Manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACDF1E2F6C2600CC3860 /* Manifest.plist */; };
+		2D9AACE41E2F6D0A00CC3860 /* Manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AACE31E2F6D0A00CC3860 /* Manifest.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		2D9AACCA1E2F525000CC3860 /* confused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confused.png; path = Contents/Resources/confused.png; sourceTree = "<group>"; };
 		2D9AACCB1E2F525000CC3860 /* annoyed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annoyed.png; path = Contents/Resources/annoyed.png; sourceTree = "<group>"; };
 		2D9AACD31E2F56D300CC3860 /* PlaygroundSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlaygroundSupport.framework; path = Carthage/Build/iOS/PlaygroundSupport.framework; sourceTree = "<group>"; };
+		2D9AACDB1E2F6AB700CC3860 /* Manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Manifest.plist; path = Contents/Manifest.plist; sourceTree = "<group>"; };
+		2D9AACDF1E2F6C2600CC3860 /* Manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Manifest.plist; path = Contents/Chapters/Talking.playgroundchapter/Manifest.plist; sourceTree = "<group>"; };
+		2D9AACE31E2F6D0A00CC3860 /* Manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Manifest.plist; path = Contents/Chapters/Talking.playgroundchapter/Pages/Introduction.playgroundpage/Manifest.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,8 @@
 		2D9AACB41E2F4FA300CC3860 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
+				2D9AACDD1E2F6B7D00CC3860 /* Chapters */,
+				2D9AACDB1E2F6AB700CC3860 /* Manifest.plist */,
 				2D9AACC21E2F517C00CC3860 /* Resources */,
 				2D9AACB51E2F4FFB00CC3860 /* Sources */,
 			);
@@ -152,6 +160,39 @@
 				2D9AACCB1E2F525000CC3860 /* annoyed.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D9AACDD1E2F6B7D00CC3860 /* Chapters */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AACDE1E2F6BD400CC3860 /* Talking.playgroundchapter */,
+			);
+			name = Chapters;
+			sourceTree = "<group>";
+		};
+		2D9AACDE1E2F6BD400CC3860 /* Talking.playgroundchapter */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AACE11E2F6C6700CC3860 /* Pages */,
+				2D9AACDF1E2F6C2600CC3860 /* Manifest.plist */,
+			);
+			name = Talking.playgroundchapter;
+			sourceTree = "<group>";
+		};
+		2D9AACE11E2F6C6700CC3860 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AACE21E2F6CBB00CC3860 /* Introduction.playgroundpage */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		2D9AACE21E2F6CBB00CC3860 /* Introduction.playgroundpage */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AACE31E2F6D0A00CC3860 /* Manifest.plist */,
+			);
+			name = Introduction.playgroundpage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9AACCC1E2F525000CC3860 /* neutral2.png in Resources */,
+				2D9AACDC1E2F6AB700CC3860 /* Manifest.plist in Resources */,
+				2D9AACE41E2F6D0A00CC3860 /* Manifest.plist in Resources */,
 				2D9AACCD1E2F525000CC3860 /* neutral1.png in Resources */,
 				2D9AAC9F1E2F4E6300CC3860 /* LaunchScreen.storyboard in Resources */,
 				2D9AACCF1E2F525000CC3860 /* laughstart.png in Resources */,
 				2D9AACD21E2F525000CC3860 /* annoyed.png in Resources */,
 				2D9AACD11E2F525000CC3860 /* confused.png in Resources */,
+				2D9AACE01E2F6C2600CC3860 /* Manifest.plist in Resources */,
 				2D9AACD01E2F525000CC3860 /* icon.png in Resources */,
 				2D9AACCE1E2F525000CC3860 /* laughtears.png in Resources */,
 			);
